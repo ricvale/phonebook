@@ -1,4 +1,7 @@
 A Phone Book Web application made with MVC Codeigniter (php, ajax, search, Datatable, Edit inline)
+ With Sign up / Sign in 
+
+(secure mode active: Cross Site Request Forgery | XSS filter)
 
 Upload of all codeigniter application 
 
