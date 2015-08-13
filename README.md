@@ -1,8 +1,24 @@
-# phonebook
-phone book with Codeigniter (php, ajax, search, Datatable, Edit inline)
+A Phone Book Web application made with MVC Codeigniter (php, ajax, search, Datatable, Edit inline)
 
-Upload of all codeigniter application (run in http://localhost/phonebook/ 
-... 
-or run live modifying the files 
-    'application/config.php' to edit base_url of app 
-    and file '.htaccess' at root to modify subdirectory 'phonebook')
+Upload of all codeigniter application 
+
+Import the database structure phonebook.sql file for MySQL
+Modify the file 'application/config/database.php' to connect.
+    Change to yours, there it is:
+    'hostname' => 'localhost',
+	'username' => 'phonebook',
+	'password' => 'phonebook01',
+	'database' => 'phonebook',
+	'dbdriver' => 'mysqli',
+
+(Then run local in browser http://localhost/phonebook/)
+or 
+(run modifying the files: 
+    'application/config.php' to edit your base url ( $config['base_url'] = 'http://localhost/phonebook/'; )
+    and file '.htaccess' at root of archive to modify subdirectory 'phonebook':
+    RewriteBase /phonebook/
+     For root path you can change into: 
+    RewriteBase / 
+    )
+ 
+ 
