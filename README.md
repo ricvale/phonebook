@@ -1,21 +1,23 @@
-A Phone Book Web application made with MVC Codeigniter (php, ajax, search, Datatable, Edit inline)
- With Sign up / Sign in 
+#Phone Book
 
-(secure mode active: Cross Site Request Forgery | XSS filter)
+#Web application made with MVC Codeigniter (php, ajax, search, Datatable, Edit inline)#
 
-Upload of all codeigniter application 
+![phonebook](https://raw.githubusercontent.com/ricvale/phonebook/master/snap.png)
 
-Import the database structure phonebook.sql file for MySQL
-Modify the file 'application/config/database.php' to connect.
+####All codeigniter application with webpages 'Sign up / Sign in' (secure mode active: Cross Site Request Forgery | XSS filter)###
+
+## Installation ##
+* 'Import' the database structure phonebook.sql file for MySQL
+* 'Modify' the file 'application/config/database.php' to connect.
     Change to yours, there it is:
     'hostname' => 'localhost',
 	'username' => 'phonebook',
 	'password' => 'phonebook01',
 	'database' => 'phonebook',
 	'dbdriver' => 'mysqli',
+* 'Then run local in browser' http://localhost/phonebook/
 
-(Then run local in browser http://localhost/phonebook/)
-or 
+* 'or' 
 (run modifying the files: 
     'application/config.php' to edit your base url ( $config['base_url'] = 'http://localhost/phonebook/'; )
     and file '.htaccess' at root of archive to modify subdirectory 'phonebook':
